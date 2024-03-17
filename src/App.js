@@ -1,23 +1,29 @@
-import './App.css';
-import Introduction from './components/introduction';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import NavigationBar from './Components/NavigationBar';
+import Footer from './Components/Footer';
+
+import HomePg from './Pages/HomePg';
+import DesAlatPg from './Pages/DesAlatPg';
+import MonAlatPg from './Pages/MonAlatPg';
+
+import "./Style/LandingPage.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-        <div>
-        <Introduction />
+    <Router> {/* Use BrowserRouter as Router */}
+      <div>
+        <div className="myBG">
+          <NavigationBar/>
+          <Routes>
+            <Route path='/' element={<HomePg />} />
+            <Route path='/deskripsi-alat' element={<DesAlatPg />} />
+            <Route path='/monitoring-alat' element={<MonAlatPg />} />
+          </Routes>
+          <Footer/>
         </div>
-        <Footer />
-        
-      </header>
-      <section>
-        <h1>Smart Door Access and Automatic Lamp  </h1>
-      </section>
-    </div>
+      </div>
+    </Router>
   );
 }
 
