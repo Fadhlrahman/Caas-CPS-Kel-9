@@ -1,0 +1,16 @@
+.footer {
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(249, 244, 244, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    line-height: 25%;
+  }
+
+.my-navbar {
+    background-color: rgba(249, 244, 244, 0.5); /* Warna merah dengan opasitas 0.5 */
+    /* Atau menggunakan notasi hex dengan opasitas */
+    /* background-color: #ff000080; */
+}

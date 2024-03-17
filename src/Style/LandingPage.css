@@ -1,0 +1,20 @@
+  .myBG {
+      height: 150vh;
+      background: url("../assets/Walpaper/Wa1.jpeg");
+      background-size: cover
+  }
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    letter-spacing: 4px;
+  }

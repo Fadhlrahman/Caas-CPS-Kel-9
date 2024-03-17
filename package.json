@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "react-bootstrap-navbar",
   "version": "0.1.0",
   "private": true,
@@ -6,18 +7,31 @@
   "homepage": "./",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
+=======
+  "name": "caas-cps-2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+>>>>>>> 9588a92c0dc3b7fcab423b42a6701dd633ea375e
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+<<<<<<< HEAD
+=======
+    "firebase": "^10.9.0",
+>>>>>>> 9588a92c0dc3b7fcab423b42a6701dd633ea375e
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "sharp": "^0.33.2",
+=======
+>>>>>>> 9588a92c0dc3b7fcab423b42a6701dd633ea375e
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -28,8 +42,13 @@
   },
   "eslintConfig": {
     "extends": [
+<<<<<<< HEAD
       "react-app",
       "react-app/jest"
+=======
+      "eslint:recommended",
+      "plugin:react/recommended"
+>>>>>>> 9588a92c0dc3b7fcab423b42a6701dd633ea375e
     ]
   },
   "browserslist": {
@@ -43,5 +62,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+>>>>>>> 9588a92c0dc3b7fcab423b42a6701dd633ea375e
   }
 }

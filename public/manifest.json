@@ -13,11 +13,14 @@
       "sizes": "192x192"
     },
     {
+<<<<<<< HEAD
       "src": "Addhiya.jpg",
       "type": "image/jpg",
       "sizes": "192x192"
     },
     {
+=======
+>>>>>>> 9588a92c0dc3b7fcab423b42a6701dd633ea375e
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
